@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu cậu BPa cụa tớ!",
-  text2: "Tớ có điều này muốn nói với cậu rằng.",
-  text3: "Cậu có bit tớ yêu BPa lắm khum hả? ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "hông....hông có bic...hông...hông có nhớ???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do tớ yêu BPa vcl là vì :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì BPa xinh vclllll =))))",
-  text10: " ^^ Yêu cậu 300.000",
+  text1: "He luu kem iu cụa ank!",
+  text2: "ank có điều này muốn hỏi em rằng.",
+  text3: "em có iu ank khum hả? ._.",
+  text4: "Nếu kem ko trả lời mà thoát ra tức là muốn làm vợ ank rùi đó nha :v",
+  text5: "hông bic....hông bic nứa.....hông bic ???",
+  text6: "iu ank nhắmmmm <3",
+  text7: "lí do em iu ank là vì :vvvv",
+  text8: "Gửi cho ank <3",
+  text9: "Vì bún đẹp zaiiii vcccc =))))",
+  text10: " ^^ iu em super ultimate pro max",
   text11:
-    "cho nên là BPa mãi xinh đẹp mãi hạnh phúc nhé yêu lắm luon í mặc dù nó sến vcl BPa ạ :))))",
+    "iu em gấc nhìu :))))",
   text12: "Okii lunn <3",
 };
 
@@ -35,9 +35,9 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
-      imageWidth: 300,
-      imageHeight: 300,
+      imageUrl: "img/kemmm.jpg",
+      imageWidth: 414,
+      imageHeight: 368,
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.facebook.com/nin04.duong";
           },
         });
       }
